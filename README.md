@@ -1,0 +1,2 @@
+# YourDiary
+-_-
