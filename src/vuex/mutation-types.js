@@ -1,0 +1,1 @@
+export const SET_TIPS_STATUS = 'SET_TIPS_STATUS'
