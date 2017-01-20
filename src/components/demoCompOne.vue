@@ -30,7 +30,7 @@ $liAnimation = .3s
 <template>
     <div class="list-holder">
         <ul class="ul-holder">
-            <li v-for = "item in list">
+            <li v-for = "item in list" @click="setTipStatus(item)">
                 {{item}}
             </li>
         </ul>
@@ -38,10 +38,16 @@ $liAnimation = .3s
 </template>
 
 <script>
+import { mapActions } from 'vuex';
 export default {
     name: 'childOne',
     props: {
         list: Array
+    },
+    methods: {
+        ...mapActions([
+            'setTipStatus'
+        ])
     }
 }
 
