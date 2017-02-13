@@ -1,0 +1,31 @@
+{
+  "name": "your-daiary",
+  "version": "1.0.0",
+  "description": "an application for vue2 server side render with koa2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PupateYf/YourDiary.git"
+  },
+  "keywords": [
+    "your-dairay"
+  ],
+  "author": "Yatfung Yeung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PupateYf/YourDiary/issues"
+  },
+  "homepage": "https://github.com/PupateYf/YourDiary#readme",
+  "dependencies": {
+    "babel-polyfill": "^6.22.0",
+    "koa-router": "^7.0.1",
+    "koa2": "^2.0.0-alpha.7"
+  },
+  "devDependencies": {
+    "babel-register": "^6.22.0",
+    "koa-compose": "^2.5.1"
+  }
+}
